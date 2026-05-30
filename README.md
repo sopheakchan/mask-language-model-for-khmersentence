@@ -1,6 +1,6 @@
 # Masked Language Model for Khmer
 
-This mock up notebook fine-tunes **XLM-RoBERTa**, a multilingual masked language model. It learns from Khmer sentences to understand context and grammar, then predicts missing words. The goal is **contextual spelling** and word suggestion in Khmer.
+This mock up notebook fine-tunes **XLM-RoBERTa**, a multilingual masked language model. It learns from Khmer sentences to understand context and grammar, then predicts missing words. The goal is **contextual structure of a sentence** and word suggestion in Khmer.
 
 ## Why XLM-RoBERTa
 XLM-RoBERTa is trained on many languages and supports Khmer. With a `<mask>` token, it can predict the most likely word for the missing position based on sentence context.
